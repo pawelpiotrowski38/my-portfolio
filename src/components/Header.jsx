@@ -1,7 +1,10 @@
+import Navigation from './Navigation';
+import './header.scss';
+
 export default function Header() {
     return (
-        <header>
-            HEADER
+        <header className='header'>
+            <Navigation />
         </header>
     )
 }
