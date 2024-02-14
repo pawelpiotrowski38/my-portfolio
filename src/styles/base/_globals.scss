@@ -9,7 +9,11 @@ html {
 
 body {
     line-height: 1.3;
+    letter-spacing: 0.25px;
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--main-background-color);
 }
 
 #root {

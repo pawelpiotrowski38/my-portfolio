@@ -1,0 +1,19 @@
+:root {
+    &, &.dark {
+        --main-background-color: hsl(0, 0%, 10%);
+        --component-background-color: hsl(0, 0%, 4%);
+        --element-background-color: hsl(0, 0%, 23%);
+        --primary-text-color: hsl(0, 0%, 96%);
+        --secondary-text-color: hsl(0, 0%, 80%);
+    }
+
+    &.light {
+        --main-background-color: hsl(0, 0%, 90%);
+        --component-background-color: hsl(0, 0%, 98%);
+        --element-background-color: hsl(0, 0%, 78%);
+        --primary-text-color: hsl(0, 0%, 4%);
+        --secondary-text-color: hsl(0, 0%, 20%);
+    }
+
+    --button-background-color: hsl(231, 59%, 54%);
+}
