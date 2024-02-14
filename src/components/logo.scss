@@ -1,0 +1,10 @@
+.logo {
+    margin-left: 0.5rem;
+
+    &__link {
+
+        &.svg {
+            fill: var(--primary-text-color);
+        }
+    }
+}

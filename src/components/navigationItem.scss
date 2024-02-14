@@ -1,0 +1,27 @@
+.navigation-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__link {
+        padding: 0.75rem;
+    }
+
+    &::after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0.1875rem;
+        content: '';
+        border-radius: 1rem;
+        background-color: var(--button-background-color);
+        transition: width 0.25s ease-in-out;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+}
