@@ -7,10 +7,10 @@ export default function Navigation() {
         <nav className='navigation'>
             <Logo />
             <ul className='navigation__list'>
-                <NavigationItem>
+                <NavigationItem linkTo={'/about'}>
                     About
                 </NavigationItem>
-                <NavigationItem>
+                <NavigationItem linkTo={'/projects'}>
                     Projects
                 </NavigationItem>
             </ul>
