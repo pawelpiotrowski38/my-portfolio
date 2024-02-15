@@ -1,0 +1,10 @@
+.skills {
+    margin-top: 3rem;
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(3rem, 1fr));
+        column-gap: 1.125rem;
+        row-gap: 1.25rem;
+    }
+}

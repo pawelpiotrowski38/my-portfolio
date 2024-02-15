@@ -1,0 +1,8 @@
+.skills-item {
+        
+    & > svg {
+        width: 2.875rem;
+        height: 2.875rem;
+        fill: var(--primary-text-color);
+    }
+}
