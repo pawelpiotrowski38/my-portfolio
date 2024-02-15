@@ -6,7 +6,7 @@ export default function Logo() {
     return (
         <div className='logo'>
             <Link className='logo__link' to={'/'}>
-                <IoHome size={'1.625rem'}/>
+                <IoHome />
             </Link>
         </div>
     )
