@@ -1,0 +1,21 @@
+.hero-section {
+
+    &__header {
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+    &__paragraph {
+        color: var(--secondary-text-color);
+        margin-bottom: 1.75rem;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+    }
+
+    &__name {
+        color: var(--button-background-color);
+    }
+}
