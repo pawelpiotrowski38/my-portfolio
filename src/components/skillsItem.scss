@@ -6,3 +6,23 @@
         fill: var(--primary-text-color);
     }
 }
+
+@media screen and (min-width: 62em) {
+    .skills-item {
+    
+        & > svg {
+            width: 3.125rem;
+            height: 3.125rem;
+        }
+    }
+}
+
+@media screen and (min-width: 90em) {
+    .skills-item {
+    
+        & > svg {
+            width: 3.75rem;
+            height: 3.75rem;
+        }
+    }
+}

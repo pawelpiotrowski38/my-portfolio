@@ -7,7 +7,7 @@
     font-weight: 500;
 
     &__link {
-        padding: 0.75rem;
+        padding: 0.875rem;
     }
 
     &::after {
@@ -25,5 +25,15 @@
 
     &:hover::after {
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 62em) {
+    .navigation-item {
+        font-size: 1.125rem;
+
+        &__link {
+            padding: 0.875rem 1.25rem;
+        }
     }
 }

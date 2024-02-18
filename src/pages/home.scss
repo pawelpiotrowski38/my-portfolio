@@ -5,3 +5,9 @@
     max-width: 1440px;
     padding: 2.75rem 1.0625rem;
 }
+
+@media screen and (min-width: 90em) {
+    .home {
+        padding: 3.75rem 1.0625rem;
+    }
+}
