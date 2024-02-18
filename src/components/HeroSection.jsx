@@ -1,4 +1,4 @@
-import Button from "./Button";
+import { Link } from "react-router-dom";
 import './heroSection.scss';
 
 export default function HeroSection() {
@@ -10,9 +10,9 @@ export default function HeroSection() {
             <p className='hero-section__paragraph'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lectus leo, condimentum nec lobortis non, interdum at ex. Donec id pulvinar eros. Cras quis scelerisque ex.
             </p>
-            <Button clickHandler={null}>
+            <Link to={'/projects'} className='hero-section__link'>
                 See projects
-            </Button>
+            </Link>
         </section>
     )
 }
