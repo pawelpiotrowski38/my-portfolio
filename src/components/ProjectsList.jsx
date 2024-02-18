@@ -3,13 +3,13 @@ import './projectsList.scss';
 
 const projects = [{
         id: 1,
-        imageSource: 'projects-default-image.png',
-        name: 'Movies App',
+        imageSource: 'projects-moviesportal-image.png',
+        name: 'Movies Portal App',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lectus leo, condimentum nec lobortis non, interdum at ex. Donec id pulvinar eros. Cras quis scelerisque ex.',
         link: 'https://github.com/pawelpiotrowski38/movies-app',
     }, {
         id: 2,
-        imageSource: 'projects-default-image.png',
+        imageSource: 'projects-nutritiontracker-image.png',
         name: 'Nutrition Tracker App',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lectus leo, condimentum nec lobortis non, interdum at ex. Donec id pulvinar eros. Cras quis scelerisque ex.',
         link: 'https://github.com/pawelpiotrowski38/nutrition-tracker-app',
