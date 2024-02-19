@@ -1,35 +1,3 @@
-import { IoLogoJavascript } from "react-icons/io5";
-import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io5";
-import { FaSass } from "react-icons/fa";
-import { SiPostgresql } from "react-icons/si";
-import { FaGitAlt } from "react-icons/fa";
-
-export const skills = [{
-        id: 1,
-        component: <IoLogoJavascript />,
-    }, {
-        id: 2,
-        component: <FaReact />,
-    }, {
-        id: 3,
-        component: <FaNodeJs />,
-    }, {
-        id: 4,
-        component: <IoLogoCss3 />,
-    }, {
-        id: 5,
-        component: <FaSass />,
-    }, {
-        id: 6,
-        component: <SiPostgresql />,
-    }, {
-        id: 7,
-        component: <FaGitAlt />,
-    },
-];
-
 export const projects = [{
         id: 1,
         imageSource: 'projects-moviesportal-image.png',
@@ -40,7 +8,7 @@ export const projects = [{
         id: 2,
         imageSource: 'projects-frontendmentor-image.png',
         name: 'Frontend Mentor Projects',
-        description: 'These are real-world design challenges solved using HTML, CSS, and JavaScript. They demonstrate the ability to create responsive layouts and attention to detail.',
+        description: 'These are real-world design challenges solved using HTML, CSS, and JavaScript. They demonstrate the ability to create responsive layouts and show attention to detail.',
         link: 'https://github.com/pawelpiotrowski38/frontend-mentor-projects',
     }, {
         id: 3,
