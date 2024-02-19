@@ -5,17 +5,18 @@
         --element-background-color: hsl(0, 0%, 23%);
         --primary-text-color: hsl(0, 0%, 93%);
         --secondary-text-color: hsl(0, 0%, 85%);
+        --shadow-color: hsl(231, 15%, 3%);
     }
 
     &.light {
-        --main-background-color: hsl(0, 0%, 90%);
-        --component-background-color: hsl(0, 0%, 84%);
+        --main-background-color: hsl(0, 0%, 95%);
+        --component-background-color: hsl(0, 0%, 98%);
         --element-background-color: hsl(0, 0%, 78%);
         --primary-text-color: hsl(0, 0%, 12%);
         --secondary-text-color: hsl(0, 0%, 18%);
+        --shadow-color: hsl(0, 0%, 65%);
     }
 
     --button-background-color: hsl(231, 59%, 56%);
     --button-text-color: hsl(0, 0%, 94%);
-    --shadow-color: hsl(231, 15%, 3%);
 }

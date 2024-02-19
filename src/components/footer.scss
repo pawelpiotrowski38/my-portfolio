@@ -5,6 +5,7 @@
     width: 100%;
     padding: 1.75rem 0;
     border-top: 0.0625rem solid var(--element-background-color);
+    transition: all 0.25s ease-in-out;
 
     &__container {
         display: flex;
@@ -41,6 +42,7 @@
     &__contact {
         margin-bottom: 1.75rem;
         color: var(--secondary-text-color);
+        transition: all 0.25s ease-in-out;
     }
 
     &__header {
@@ -64,5 +66,6 @@
     &__mail {
         margin-left: 0.5rem;
         font-size: 0.9375rem;
+        transition: all 0.25s ease-in-out;
     }  
 }
