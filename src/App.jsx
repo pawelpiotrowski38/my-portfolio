@@ -8,13 +8,13 @@ import Projects from './pages/Projects';
 export default function App() {
 	return (
 		<BrowserRouter>
-			<Routes>
-				<Route element={<AppLayout />}>
+			<AppLayout>
+				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/about' element={<About />} />
 					<Route path='/projects' element={<Projects />} />
-				</Route>
-			</Routes>
+				</Routes>
+			</AppLayout>
 		</BrowserRouter>
 	)
 }
