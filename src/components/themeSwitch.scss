@@ -1,0 +1,12 @@
+.theme-switch {
+    margin-right: 0.5rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+    
+    & > svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

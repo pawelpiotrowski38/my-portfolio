@@ -6,6 +6,12 @@
     max-width: 1440px;
     padding: 0 0.375rem;
     background-color: var(--main-background-color);
+    transition: all 0.25s ease-in-out;
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
 
     &__list {
         display: flex;
