@@ -1,5 +1,5 @@
 .hero-section {
-    transition: all 0.25s ease-in-out;
+    // transition: all 0.25s ease-in-out;
 
     &__header {
         margin-bottom: 1.5rem;
@@ -7,7 +7,7 @@
         font-weight: 700;
         line-height: 1.3;
         letter-spacing: 1px;
-        transition: all 0.25s ease-in-out;
+        transition: color 0.25s ease-in-out;
     }
 
     &__paragraph {
@@ -16,7 +16,7 @@
         color: var(--secondary-text-color);
         line-height: 1.6;
         letter-spacing: 0.5px;
-        transition: all 0.25s ease-in-out;
+        transition: color 0.25s ease-in-out;
     }
 
     &__name {

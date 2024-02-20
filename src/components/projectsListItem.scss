@@ -5,7 +5,7 @@
     background-color: var(--component-background-color);
     border-radius: 1rem;
     box-shadow: 0 0 1.125rem var(--shadow-color);
-    transition: all 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
     overflow: hidden;
 
     &__image-container {
@@ -31,6 +31,7 @@
         margin-bottom: 0.75rem;
         font-size: 1.25rem;
         font-weight: 500;
+        transition: color 0.25s ease-in-out;
     }
 
     &__description {
@@ -40,7 +41,7 @@
         color: var(--secondary-text-color);
         line-height: 1.5;
         letter-spacing: 0.5px;
-        transition: all 0.25s ease-in-out;
+        transition: color 0.25s ease-in-out;
     }
 
     &__link-container {
@@ -58,7 +59,7 @@
         color: var(--button-text-color);
         border-radius: 0.5rem;
         font-weight: 500;
-        transition: all 0.25s ease-in-out;
+        transition: box-shadow 0.25s ease-in-out;
 
         & >:first-child {
             margin-right: 0.5rem;

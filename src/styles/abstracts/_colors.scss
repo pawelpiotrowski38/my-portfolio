@@ -1,11 +1,11 @@
 :root {
     &, &.dark {
-        --main-background-color: hsl(231, 15%, 8%);
-        --component-background-color: hsl(231, 12%, 12%);
+        --main-background-color: hsl(231, 15%, 9%);
+        --component-background-color: hsl(231, 12%, 13%);
         --element-background-color: hsl(0, 0%, 23%);
-        --primary-text-color: hsl(0, 0%, 93%);
-        --secondary-text-color: hsl(0, 0%, 85%);
-        --shadow-color: hsl(231, 15%, 3%);
+        --primary-text-color: hsl(0, 0%, 94%);
+        --secondary-text-color: hsl(0, 0%, 83%);
+        --shadow-color: hsl(231, 15%, 4%);
     }
 
     &.light {
