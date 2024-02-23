@@ -8,7 +8,7 @@ export const projects = [{
         id: 2,
         imageSource: 'projects-frontendmentor-image.png',
         name: 'Frontend Mentor Projects',
-        description: 'These are real-world design challenges solved using HTML, CSS, and JavaScript. They demonstrate the ability to create responsive layouts and show attention to detail.',
+        description: 'These are real-world design challenges solved using React and SCSS. They demonstrate the ability to create responsive layouts and show attention to detail.',
         link: 'https://github.com/pawelpiotrowski38/frontend-mentor-projects',
     }, {
         id: 3,
