@@ -13,7 +13,7 @@ export const projects = [{
     }, {
         id: 3,
         imageSource: 'projects-nutritiontracker-image.png',
-        name: 'Calorie Counter App (in progress)',
+        name: 'Calorie Counter App',
         description: 'This web application enables users to search for food products and create meals, while keeping track of calories information. It provides a way to manage dietary goals and monitoring nutritional intake.',
         link: 'https://github.com/pawelpiotrowski38/nutrition-tracker-app',
     },
