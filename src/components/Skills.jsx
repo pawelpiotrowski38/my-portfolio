@@ -4,30 +4,34 @@ import { FaNodeJs } from 'react-icons/fa';
 import { IoLogoCss3 } from 'react-icons/io5';
 import { FaSass } from 'react-icons/fa';
 import { SiPostgresql } from 'react-icons/si';
+import { RiSupabaseLine } from 'react-icons/ri';
 import { FaGitAlt } from 'react-icons/fa';
 import SkillsItem from './SkillsItem';
 import './skills.scss';
 
 export const skills = [{
-        id: 1,
+        id: 4562,
         component: <IoLogoJavascript />,
     }, {
-        id: 2,
+        id: 5792,
         component: <FaReact />,
     }, {
-        id: 3,
+        id: 1207,
         component: <FaNodeJs />,
     }, {
-        id: 4,
+        id: 9123,
         component: <IoLogoCss3 />,
     }, {
-        id: 5,
+        id: 2245,
         component: <FaSass />,
     }, {
-        id: 6,
+        id: 1204,
         component: <SiPostgresql />,
     }, {
-        id: 7,
+        id: 6913,
+        component: <RiSupabaseLine />,
+    }, {
+        id: 3103,
         component: <FaGitAlt />,
     },
 ];
